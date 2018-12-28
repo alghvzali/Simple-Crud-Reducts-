@@ -1,0 +1,96 @@
+.brand-logo {
+    margin-left: 0px !important;
+}
+
+.nav-mobile {
+    margin-right: 0px !important;
+}
+
+@media only screen and (max-width:600px) {
+    .brand-logo {
+        margin: 0 !important;
+    }
+}
+@media only screen and (max-width:800px) {
+    .brand-logo {
+        margin: 0 !important;
+    }
+}
+
+.parallax img {
+    width: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+}
+
+.reducts-text {
+    color: white !important;
+    text-shadow: 10px 10px 11px black;
+    text-transform: capitalize;
+}
+
+.reducts-image {
+    opacity: 0.8;
+}
+
+.parallax-bagian2 {
+    height: 200px !important;
+}
+
+.footer-copyright {
+    height: 40px !important;
+}
+
+.page-footer {
+    padding: 0;
+}
+
+.mt-80px {
+    margin-top: 80px !important;
+}
+
+.mb-60px {
+    margin-bottom: 60px !important;
+}
+
+.mb-40px {
+    margin-bottom: 40px !important;
+}
+
+
+.card-image {
+    max-height: 100% !important;
+    width: 100%;
+}
+
+.card-image img {
+    min-height: 300px !important;
+    max-height: 300px !important;
+}
+
+.nama-pembuat {
+    font-size: 20px !important;
+}
+
+/*footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}*/
+
+.preloader-background {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #eee;
+	
+	position: fixed;
+	z-index: 100;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;	
+}
